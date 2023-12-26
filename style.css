@@ -1,8 +1,20 @@
 .saisir input{
-   
-top: 100Px;
-width: 200px;
-}
-.myMessage {
-    width: 200px;
-}
+    width: 400px;
+    }
+    
+    body{
+        background-image: url(./luz-dorada-sobre-fondo-futurista-poligono-gris-oscuro-metalizado_33869-1222.webp);
+        background-size: 100%;
+    }
+    .datetime {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(165, 42, 42);
+       
+    }
+    .messageBox{
+        width: 100%;
+    }
+    
