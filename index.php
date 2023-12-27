@@ -1,5 +1,5 @@
 <?php
-header('refresh: 3; url=index.php');
+// header('refresh: 3; url=index.php');
 require_once('./connexion.php');
 $request = $database->query('SELECT * FROM user ');
 $user = $request->fetchAll();
