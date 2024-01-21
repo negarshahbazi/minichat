@@ -54,14 +54,14 @@ $messageUser = $request->fetchAll();
         <div class="container">
           <li class="media">
             <div class="row m-2 " >
-            <div class="col-1 border text-center bg-danger-subtle btn btn-shadow rounded-pill" >
+            <div class="col-lg-2 col-md-6 border text-center bg-danger-subtle btn btn-shadow rounded-pill" >
           <p class=""><?php echo $content['pseudo'] ?></p>
             </div>
-            <div class="col-1 border border-danger rounded-3 text-white my_auto datetime shadow rounded-pill " >
+            <div class="col-lg-2 col-md-6 border border-danger rounded-3 text-white my_auto datetime shadow rounded-pill " >
             
             <p class="  datetime my-auto"> <?php echo $content['created_at']  ?> </p>
             </div>
-            <div class="col-10 border border-danger rounded-3 bg-light d-flex align-items-center" >
+            <div class="col-lg-8 border border-danger rounded-3 bg-light d-flex align-items-center" >
             <p> <?php echo $content['content']  ?> </p>
             
             </div>
